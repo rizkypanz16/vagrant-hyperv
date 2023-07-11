@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "vagrant-ubuntu22.04"
+  config.vm.box = "rizkypanji6483/ubuntu22.04"
 
   config.vm.provider "hyperv" do |hv|
     hv.vmname = "vagrant-dockernode"
